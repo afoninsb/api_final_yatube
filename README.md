@@ -48,7 +48,7 @@ python3 manage.py migrate
 python3 manage.py runserver
 ```
 ## Примеры запросов
-
+```
 GET http://127.0.0.1:8000/api/v1/posts/
 Ответ:
 {
@@ -74,6 +74,7 @@ Payload:
   "image": "string",
   "group": 0
 }
+```
 
 ## 🚀 Документация API
 http://127.0.0.1:8000/redoc/
